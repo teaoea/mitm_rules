@@ -106,12 +106,6 @@ http:
       type: response
       require-body: true
 
-      # 移除直播内容和大会员专享
-    - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story
-      name: 移除直播内容和大会员专享
-      type: response
-      require-body: true
-
       # 移除热搜广告
     - match: ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square
       name: NoAD
