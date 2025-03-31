@@ -125,10 +125,6 @@ http:
       require-body: true
 
 script-providers:
-  移除播放页面视频列表广告:
-    url: https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/Bilibili/Bilibili_helper_beta.js
-    interval: 86400
-  
   NoAD:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
     interval: 86400
